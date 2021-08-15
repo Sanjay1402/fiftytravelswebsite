@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+      <link href="styles.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+      <title>Fifty Travel - Destinations</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3  ">
+      <div class="container-fluid px-5">
+        <a class="navbar-brand" href="index.html"><img style="padding-right:10px; width: 80px; height: 50px;" alt="logo" src="images/logo.png">Fifty Travels</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link"  href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="destinations.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <p class="text-light nav-link d-lg-block d-none">|</p>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tel:+1-123-456-7890"><i class="bi bi-telephone"></i> +1 (123) 456-7890</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+        <!--main content-->
+    <h2 class="text-center mt-5 mb-5">Our Most Popular Packages</h2>
+    <div class="container">
+    <div style="margin-left:1px;" class="row row-cols-md-3 row-cols-1 g-3 ms-md-0">
+      <div class="col">
+        <div class="card position-relative" style="width: 20rem; height: 30rem;">
+          <img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold mb-3">Imperial Europe<span class="fw-bold ms-5 text-primary">$1800</span></h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p><span class="fw-bold">Rating:</span> 4.5 <img width="80" src="images/rating.png" alt="rating">  (10000+)</p>
+            <a href="#" class="btn btn-outline-primary rounded-pill " data-bs-toggle="modal" data-bs-target="#book" style="margin-left: auto; margin-top: 50px; margin-right: auto; display: block;">Book Now</a>
+          </div>
+        </div>
+      </div>
+    <div class="col">
+      <div class="card position-relative" style="width: 20rem; height: 30rem;">
+        <img src="https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold mb-3">Moscow City<span class="fw-bold text-primary" style="margin-left: 80px;">$500</span></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p><span class="fw-bold">Rating:</span> 5.0 <img width="90" src="images/5star.png" alt="rating">  (5000+)</p>
+          <a href="#" class="btn btn-outline-primary rounded-pill " data-bs-toggle="modal" data-bs-target="#book" style="margin-left: auto; margin-top: 50px; margin-right: auto; display: block;">Book Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card position-relative" style="width: 20rem; height: 30rem;">
+        <img src="https://images.unsplash.com/photo-1516926133025-705ee504386d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold mb-3">Western USA<span style="margin-left: 80px;" class="text-primary">$1300</span></h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p> <span class="fw-bold">Rating:</span> 4.5 <img width="80" src="images/rating.png" alt="rating"> (15000+)</p>
+          <a href="#" class="btn btn-outline-primary rounded-pill " data-bs-toggle="modal" data-bs-target="#book" style="margin-left: auto; margin-top: 50px; margin-right: auto; display: block;">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <h2 class="text-center m-5">Looking to visit a specific place?</h2>
+  <h5 class="text-center mb-5">Check out some Awesome packages for your dream place!</h5>
+
+  <div class="container">
+  <div class="row row-cols-md-4 row-cols-1 g-3">
+    <a href="#" class="link-dark">
+    <div class="col">
+      <div class="card h-50">
+        <img height="150" src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1566&q=80" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Africa</h5>
+        </div>
+      </div>
+    </div>
+    </a>
+    <a href="#" class="link-dark">
+      <div class="col">
+        <div class="card h-50">
+          <img height="150" src="https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Europe</h5>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="link-dark">
+      <div class="col">
+        <div class="card h-50 mb-5">
+          <img height="150" src="https://images.pexels.com/photos/417054/pexels-photo-417054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">North America</h5>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="#" class="link-dark">
+      <div class="col">
+        <div class="card h-50 mb-5">
+          <img height="150" src="https://images.unsplash.com/photo-1519761112046-3abcd5a21728?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">South America</h5>
+          </div>
+        </div>
+        </div>
+      </a>
+      <a href="#" class="link-dark">
+        <div class="col">
+          <div class="card h-50 mb-5">
+            <img height="150" src="https://images.unsplash.com/photo-1526958977630-bc61b30a2009?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Australia</h5>
+            </div>
+          </div>
+        </div>
+        </a>
+      <a href="#" class="link-dark">
+        <div class="col">
+          <div class="card h-50 mb-5">
+            <img height="150" src="https://images.unsplash.com/photo-1608377229419-3b5168b6c3da?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Asia</h5>
+            </div>
+          </div>
+          </div>
+      </a>
+      <a href="#" class="link-dark">
+      <div class="col">
+        <div class="card h-50 mb-5">
+          <img height="150" src="https://images.unsplash.com/photo-1507671280192-5900ae887d3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Middle East</h5>
+          </div>
+        </div>
+      </div>
+      </a>
+      <a href="#" class="link-dark">
+        <div class="col">
+          <div class="card h-50 mb-5">
+            <img height="150" src="https://images.unsplash.com/photo-1551415923-31d2072bc248?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center">Antartica</h5>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="link-dark">
+        <div class="col">
+          <div class="card h-50 mb-5">
+            <img height="150" src="https://images.unsplash.com/photo-1592782985575-a96c6e647155?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title text-center">Carebbean</h5>
+          </div>
+        </div>
+        </div>
+      </a>
+    </div>
+  </div>
+    <!-- footer-->
+    <footer class="p-3 bg-dark text-white position-relative">
+      <div class=" bg-dark text-light p-3 text-md-start text-center">
+          <span class="d-none d-md-inline-block">Find us</span>
+          <a href="#" class="m-2 link-light" ><i class="bi bi-facebook"></i></a>
+          <a href="#" class="m-2 link-light"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="m-2 link-light"><i class="bi bi-twitter"></i></a>
+        <h6 class="mt-3 text-center"> Fifty Travels copyright &copy; 2021.</h6>
+      </div>
+      <a href="#" class="position-absolute bottom-0 end-0 p-4">
+        <i class="bi bi-arrow-up-circle h2"></i>
+      </a>
+    </footer>
+
+        <!--modal-->
+    <div class="modal fade" id="book" tabindex="-1" aria-labelledby="bookbook" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="bookbook">Booking</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <p id="booking">Your booking has been sent! We will contact you soon!</p>
+          <div class="modal-body">
+            <form class="row g-3" id="bookform">
+              <div class="col-md-4">
+                <label  for="firstName" class="form-label">First name</label>
+                <input id="firstName" type="text" class="form-control">
+              </div>
+              <div class="col-md-4">
+                <label for="lastName" class="form-label">Last name</label>
+                <input id="lastName" type="text" class="form-control">
+              </div>
+              <div class="col-md-4">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" type="email" class="form-control">
+              </div>
+              <div class="col-md-6">
+                <label for="address" class="form-label">Address</label>
+                <input id="address" type="text" class="form-control">
+              </div>
+              <div class="col-md-3">
+                <label for="city" class="form-label">City</label>
+                <input id="city" type="text" class="form-control">
+              </div>
+              <div class="col-md-3">
+                <label for="phone" class="form-label">Phone</label>
+                <input type="tel" class="form-control" id="phone">
+              </div>
+              <div class="col-md-3">
+                <label for="noOfPeople" class="form-label">No of people</label>
+                <input type="text" class="form-control" id="noOfPeople">
+              </div>
+              <div class="col-md-4">
+                <label for="packdest" class="form-label">Package/Destination</label>
+                <input type="text" class="form-control" id="packdest">
+              </div>
+              <div class="col-md-5">
+                <label for="travelDate" class="form-label">Travel Date</label>
+                <input type="date" class="form-control" id="travelDate">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.9.0/firebase-database.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

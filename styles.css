@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color:aliceblue;
+}
+.background{
+    background-color:aliceblue;
+}
+img{
+    max-height: 565px;
+}
+.maincards{
+    height:50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.card{
+    min-height: 220px;
+}
+a{
+    text-decoration: none;
+}
+#booking{
+    background-color: #228B22;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color:#fff;
+    display: none;
+}
